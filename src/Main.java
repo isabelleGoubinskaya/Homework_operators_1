@@ -19,6 +19,17 @@ public class Main {
             System.out.println("time to search your first job");
         }
 
+        byte placeUsed = 66;
+        if (placeUsed <= 60){
+            System.out.println("you can take a seat");
+        }
+        if (placeUsed > 60){
+            System.out.println("you stay up hohoho");
+        }
+        if (placeUsed == 102){
+            System.out.println("there are no place for you");
+        }
+
 
     }
 }
