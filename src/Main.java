@@ -60,8 +60,38 @@ public class Main {
             System.out.println("there are no place for you");
         }
 
+        //chap3
 
+        byte age2 = 9;
+        if (age2 >= 2 && age2 <=6 ){
+            System.out.println("go to kindergarden");
+        } else if (age2 >=7 && age2 <=18) {
+            System.out.println("go to school");
+        } else if (age2 >=18 && age2 <=24) {
+            System.out.println("go to university");
+        } else {
+            System.out.println("time to search your first job");
+        }
 
+        byte childAge = 10;
+        if (childAge < 5){
+            System.out.println("you can't ride the attraction");
+        } else if (childAge >=5 && childAge <14) {
+            System.out.println("you need your parents");
+        } else {
+            System.out.println("you can ride without parents");
+        }
+
+        int one = 1;
+        int two = 2;
+        int free = 777;
+        if (one > two && one > free){
+            System.out.println("one is the higher");
+        } else if (two > one && two > free) {
+            System.out.println("two is the higher");
+        } else {
+            System.out.println("free is the higher");
+        }
 
 
     }
